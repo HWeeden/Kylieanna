@@ -1,0 +1,122 @@
+html {
+    font-size: 20px;
+    font-family: Arima;
+}
+h1 {
+    color: #2E8B57;
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding 20px 0;
+    text-shadow: 3px 3px 1px black;
+}
+
+h2 {
+    color: #2E8B57;
+    margin: 0;
+    text-shadow: 1px 1px 1px black;
+}
+h3{
+    color: #2E8B57;
+    margin: 0;
+    text-shadow: 1px 1px 1px black;
+}
+body {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+img {
+    width: 100%;
+    height: auto;
+        
+}
+
+
+
+.text {
+    font-size: 15px;
+    text-align: right;
+}
+
+/*Style tab links */
+
+
+.tablink {
+    background-color: white;
+    color:black;
+    display:block;
+    float: left;
+    border: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 33%;
+}
+
+.tablinks {
+    background-color: white;
+    color:black;
+    display: block;
+    float: left;
+    border: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 16%;
+}
+   .tab.active {
+    background-color: #2E8B57;
+   }
+   .tab button:hover {
+    background-color: #2E8B57;
+  }
+  .tab button.active {
+    border-bottom: 2px #2E8B57;
+  }
+
+  .tablinks.active {
+    background-color: #2E8B57;
+   }
+   .tablinks button:hover {
+    background-color: #2E8B57;
+  }
+  .tablinks button.active {
+    border-bottom: 2px #2E8B57;
+  }
+
+/*[data-tab-content] {
+    display: none;
+}
+.active[data-tab-content] {
+    display: block;
+}
+
+.tabs {
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #2E8B57;
+}
+.tab {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.tab.active {
+    background-color: #2E8B57;
+}
+
+/*.tab:hover {
+    background-color: #2E8B57;
+}*/
